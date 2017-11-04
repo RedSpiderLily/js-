@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* 盒子样式 */
+.Box{
+    width: 600px;
+    height: 400px;
+    border: 1px solid #94a9e6;
+    background: #94a9e6;
+    position: relative;
+    margin: 30px auto;
+}
+/*  */
+.navbox{
+    position: relative;
+}
+.navbox>div{
+    width: 100%;
+    height: 50px;
+    background: #e3a4f3;
+}
+/* 搜索框 */
+.navbox>div>input{
+    width: 420px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bbb7b7;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+.navbox>div>input:focus{
+    box-shadow: 0 0 2px 1px #96ebf3;
+}
+.navbox>div>i{
+    display: inline-block;
+    position: absolute;
+    bottom: 12px;
+    right: 185px;
+    font-size: 21px;
+    color: #ec8d3f;
+    z-index: 2;
+}
+
+/* 语言类型选择 */
+.lang{
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #e3a4f3;
+    color: rgba(152, 100, 236, 4);
+    background: transparent;
+}
+.lang>option{
+    width: 130px;
+    line-height: 30px;
+    padding: 10px;
+}
+/* 翻译文本框 */
+.textbox{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.output{
+    padding: 20px 10px;
+    text-align: center;
+    color: #acf3d9;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

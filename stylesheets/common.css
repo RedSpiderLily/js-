@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/***
+***
+***单车博客首页
+**********/
+
+/*********公共样式**********/
+
+html,body,p,div,section,article,header,
+footer,nav,ul,ol,li,h1,h2,a,main{
+	margin:0;
+	padding:0;
+}
+
+/*兼容h5*/
+
+section,article,header,footer,nav,main,
+aside{
+	display:block;
+}
+
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+
+/*清除浮动*/
+.clearfix:after{clear:both;}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display: table;
+	visibility:hidden;
+}
+
+a{
+	text-decoration: none;
+	color:#333;
+}
+input{outline-style: none;}
+.link a:hover{color:#c40000;}
+
+ul,ol{list-style: none;}
+/*********ie6盒子**********/
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	font-family: "Microsoft Yahei","Helvetica Neue",
+				Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color:#555;
+}
